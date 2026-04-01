@@ -127,7 +127,6 @@ intermediate_models/
 report/
 stitched_ip/
 *.onnx
-*.pth
 *.npz
 
 # Archivos de proyecto de Vivado
@@ -153,7 +152,6 @@ __pycache__/
 
 # Ignorar modelos binarios (opcional, pero recomendado si pesan >10MB)
 **/*.onnx
-**/*.pth
 **/*.npz
 
 # Archivos de bitstream y hardware

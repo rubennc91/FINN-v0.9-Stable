@@ -1,0 +1,40 @@
+{
+    "Defaults": {},
+    "Thresholding_Batch_0": {
+      "ram_style": "distributed"
+    },
+    "FMPadding_Batch_0" : {
+    },
+    "ConvolutionInputGenerator_0": {
+      "ram_style": "distributed"
+    },
+    "MatrixVectorActivation_0": {
+      "ram_style": "distributed",
+      "resType": "dsp"
+    },
+    "StreamingMaxPool_Batch_0" : {
+    },
+    "FMPadding_Batch_1" : {
+    },
+    "ConvolutionInputGenerator_1": {
+      "ram_style": "distributed"
+    },
+    "MatrixVectorActivation_1": {
+      "ram_style": "distributed",
+      "resType": "dsp"
+    },
+    "StreamingMaxPool_Batch_1" : {
+    },
+    "MatrixVectorActivation_2": {
+      "PE": 8,
+      "SIMD": 8,
+      "ram_style": "block",
+      "resType": "dsp"
+    },
+    "MatrixVectorActivation_3": {
+      "ram_style": "distributed",
+      "resType": "dsp"
+    },
+    "LabelSelect_Batch_0": {
+    }
+  }

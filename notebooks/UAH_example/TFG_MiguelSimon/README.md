@@ -22,3 +22,7 @@ La salida del build (`output_rebuild_mlp27k_w4a8_ft_clean/`) y la simulación co
 - `output_final_miguel/`, `output_final_mlp27k/`: informes y logs de otras compilaciones (sin ficheros generados).
 - `resultados_modelo_cuantizado.csv`: resultados de la cuantización.
 - `versiones_sin_salidas/`: copias de los notebooks sin las salidas de las celdas.
+
+## Autoría y licencia
+
+© 2026 Miguel Simón Chica y Rubén Nieto Capuchino (tutor). Código bajo MIT y documentación bajo CC BY 4.0 (ver el repositorio del TFG). El resto de FINN conserva su licencia BSD-3.

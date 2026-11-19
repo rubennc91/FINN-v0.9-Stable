@@ -9,7 +9,7 @@ El resto del proyecto (simulación con Verilator, ROS 2/Gazebo, dataset, entrena
 | Paso | Fichero | Qué hace |
 |---|---|---|
 | 1 | `mlp_27k.ckpt`, `state_dict_quantized_last.pth` | Pesos de partida (entrenamiento en el repositorio del TFG, `01_entrenamiento/`). |
-| 2 | `Quantize_MLP27K_Montmelo_FINN.ipynb` y `_v2`, `_v3_finetuning*`, `_v4_*` | Cuantización W4A8 con Brevitas y exportación a ONNX. `_v4_clean_rebuild_verilator` es el flujo limpio y genera `q_mlp27k_w4a8_finetuned.pth` y los ONNX. |
+| 2 | `Quantize_MLP27K_Montmelo_FINN.ipynb` y `_v2`, `_v3_finetuning*`, `_v4_*` | Cuantización W4A8 con Brevitas y exportación a ONNX. **`Quantize_MLP27K_Montmelo_FINN_v4_clean_rebuild_verilator.ipynb` es el notebook DEFINITIVO** (confirmado por el tutor); es el flujo limpio y genera `q_mlp27k_w4a8_finetuned.pth` y los ONNX. |
 | 3 | `model_tidy.onnx`, `folding_config_miguel.json` | Modelo ordenado y plegado para FINN. |
 | 4 | `build_miguel.py` o `FINN_build_MLP27K_W4A8_finetuned_minimal.ipynb` | Compilación con FINN a IP en `xc7z020clg400-1`, 10 ns, 1000 fps. |
 | 5 | `comprobar_onnx_vs_verilator.py`, `test_onnx.py`, `test_finn_onnx.py` | Comprobación del ONNX frente a la simulación en Verilator. |

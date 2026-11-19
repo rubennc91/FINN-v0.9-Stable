@@ -7,6 +7,13 @@
 [![GitHub Discussions](https://img.shields.io/badge/discussions-join-green)](https://github.com/Xilinx/finn/discussions)
 [![ReadTheDocs](https://readthedocs.org/projects/finn/badge/?version=latest&style=plastic)](http://finn.readthedocs.io/)
 
+> ### Sobre este repositorio (copia de trabajo, UAH)
+> Es una copia personal de FINN v0.9 para no perder el trabajo hecho en la UAH.
+> - **`main`**: es el estado del **servidor**. `run-docker.sh` está ajustado para el servidor (rutas de Xilinx, `PYTHONPATH` manual y protección ante cuelgues del kernel). Antes de abril de 2026 esta configuración estaba en las ramas `server-working-state` y `feature/server-config-stable`, ya fusionadas aquí; el script original que funcionaba en el PC de casa queda en el historial (commit `5762f54`).
+> - **`notebooks/UAH_example/TFG_MiguelSimon/`**: material del TFG de Miguel Simón Chica (2026). El notebook final es `Quantize_MLP27K_Montmelo_FINN_v4_clean_rebuild_verilator.ipynb`. Ver el README de esa carpeta.
+> - Para el resto, ver la documentación original de FINN más abajo.
+
+
 FINN is an experimental framework from Xilinx Research Labs to explore deep neural network
 inference on FPGAs.
 It specifically targets <a href="https://github.com/maltanar/qnn-inference-examples" target="_blank">quantized neural

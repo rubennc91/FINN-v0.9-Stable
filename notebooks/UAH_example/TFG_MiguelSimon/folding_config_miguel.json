@@ -1,0 +1,27 @@
+{
+    "Defaults": {},
+    "MatrixVectorActivation_0": {
+        "PE": 16,
+        "SIMD": 8,
+        "ram_style": "auto",
+        "resType": "auto"
+    },
+    "MatrixVectorActivation_1": {
+        "PE": 16,
+        "SIMD": 8,
+        "ram_style": "auto",
+        "resType": "auto"
+    },
+    "MatrixVectorActivation_2": {
+        "PE": 8,
+        "SIMD": 8,
+        "ram_style": "auto",
+        "resType": "auto"
+    },
+    "MatrixVectorActivation_3": {
+        "PE": 1,
+        "SIMD": 8,
+        "ram_style": "auto",
+        "resType": "auto"
+    }
+}
